@@ -56,14 +56,15 @@
 | :n1,n2s/old/new/g | 在一定范围内替换指定字符串 |
 
 PS:搜索替换命令略详解
-:%s/old/new/g
-:全文替换/要替换的字符串/替换的新的字符串/g
 
-:n1,n2s/old/new/g
-:起始行,终止行s /要替换的字符串/替换的新的字符串/g
-
-`/g`(直接替换不询问)
-`/c`(替换询问:`y`确定替换-:`n`跳过)
+	:%s/old/new/g
+	:全文替换/要替换的字符串/替换的新的字符串/g
+	
+	:n1,n2s/old/new/g
+	:起始行,终止行s /要替换的字符串/替换的新的字符串/g
+	
+	`/g`(直接替换不询问)
+	`/c`(替换询问:`y`确定替换-:`n`跳过)
 
 # 保存和退出命令
 | 命令 | 作用 |
@@ -78,44 +79,44 @@ PS:搜索替换命令略详解
 # Vim Antic
 - 导入命令执行结果
 
-:r !命令
-将命令执行的结果导入到光标所在处
+	:r !命令
+	将命令执行的结果导入到光标所在处
 
-:r 文件名
-将文件名中的内容导入到光标所在处
+	:r 文件名
+	将文件名中的内容导入到光标所在处
 
-:!命令
-直接在`vim`执行命令，而不退出`vim`
+	:!命令
+	直接在`vim`执行命令，而不退出`vim`
 
 - 定义快捷键 `:map` 快捷键 触发命令
 
 范例:
 
-:map ^P I#<ESC>
+	:map ^P I#<ESC>
 
-:map ^B 0x
+	:map ^B 0x
 
-^P > Ctrl + v + p
+	^P > Ctrl + v + p
 
-^B > Ctrl + v + Ctrl + b
+	^B > Ctrl + v + Ctrl + b
 
 - 连续行注释(正则表达式)
 
-:n1,n2s/^/#/g
+	:n1,n2s/^/#/g
 
-:n1,n2s/^#//g
+	:n1,n2s/^#//g
 
-:n1,n2s/^/\/\//g
+	:n1,n2s/^/\/\//g
 
-PS:n1,n2(起始行,结束行)
+	PS:n1,n2(起始行,结束行)
 
 - 替换
 
-:ab mymail google@gmail.com
+	:ab mymail google@gmail.com
 
-定义`mymail`为`google@gmail.com`
+	定义`mymail`为`google@gmail.com`
 
-在`vim`中输入`mymail`(空格，回车)会变为`google@gmail.com`
+	在`vim`中输入`mymail`(空格，回车)会变为`google@gmail.com`
 
 
 
