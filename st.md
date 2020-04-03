@@ -65,7 +65,7 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-> vim .gitignore
+> vim .gitignore (没有的话，就新建一个)
 在里面添加这些内容
 
 ```
@@ -166,11 +166,11 @@ Hunk #1 FAILED at 84. 1 out of 1 hunk FAILED -- saving rejects to file config.h.
 { ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 这两行是`scrollback`绑定的快捷键
 这里我们修改为(Alt+j,k) Alt键默认为`MODKEY`
-{ MODKEY,            XK_K,     kscrollup,      {.i = -1} }, 
+{ MODKEY,            XK_k,     kscrollup,      {.i = -1} }, 
 { MODKEY,            XK_j,     kscrolldown,    {.i = -1} },
 ```
 
-
+st-dracula-0.8.2.diff
 
 
 

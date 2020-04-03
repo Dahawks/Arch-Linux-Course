@@ -1,4 +1,4 @@
-##### roo一，配置网络
+##### 一，配置网络
 
 > systemctl enable NetworkManager
 
@@ -57,3 +57,16 @@
     去除掉前面的`#`注释符。保存并退出
 
 3. 注：这里的`%wheel`就是代表`wheel`组，意味着`wheel`组中的所有用户都可以使用`sudo`命令
+
+# Font
+Source Code Pro
+nerd-fonts-source-code-pro
+
+noto-fonts
+
+# Emoji
+> yay -S ttf-linux-libertine ttf-inconsolata ttf-joypixels ttf-twemoji-color noto-fonts-emoji ttf-liberation ttf-droid
+
+# Chinese
+> yay -S wqy-bitmapfont wqy-microhei wqy-microhei-lite wqy-zenhei adobe-source-han-mono-cn-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
+
