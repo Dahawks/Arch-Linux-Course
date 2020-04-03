@@ -114,18 +114,16 @@ File to patch: 在这里输入`config.h`
 
 | 推荐的补丁 |
 | :--------: | :--: |
-| st-alpha-0.8.2.diff |
-| st-anysize-0.8.1.diff |
-| st-blinking-cursor-20180605.diff |
-| st-copyurl-20190202-3be4cf1.diff |
-| st-desktopentry-0.8.2.diff |
-| st-dracula-0.8.2.diff |
-| st-fontfix.diff |
-| st-hidecursor-0.8.1.diff |
-| st-lukesmith-externalpipe(if_you_dont_have_scrollback).diff |
-| st-lukesmith-externalpipe(if_you_have_scrollback).diff |
-| st-scrollback-20190331-21367a0.diff |
-| st-vimBrowse-20191203-2b8333f.diff |
+| [st-alpha-0.8.2.diff](https://st.suckless.org/patches/alpha/) | 窗口透明 |
+| [st-anysize-0.8.1.diff](https://st.suckless.org/patches/anysize/) | 消除窗口间隙 |
+| [st-blinking-cursor-20180605.diff]()  |  |
+| [st-copyurl-20190202-3be4cf1.diff](https://st.suckless.org/patches/copyurl/) | 选择并复制URL |
+| [st-desktopentry-0.8.2.diff](https://st.suckless.org/patches/desktopentry/) | 为`st`创建一个桌面图标 |
+| [st-dracula-0.8.2.diff](https://st.suckless.org/patches/dracula/) | 修改`st`配色 |
+| [st-fontfix.diff]() | 更好的显示表情字体 |
+| [st-hidecursor-0.8.1.diff](https://st.suckless.org/patches/hidecursor/) | 打字时隐藏鼠标 |
+| [st-scrollback-20190331-21367a0.diff](https://st.suckless.org/patches/scrollback/) | 滚动查看终端输出 |
+| [st-vimBrowse-20191203-2b8333f.diff]() |  |
 
 
 如果提示
