@@ -5,6 +5,6 @@
 - Archlinux-Fonts.md
 - Archlinux-install-end.md
 - oh_my_fish.md
-- oh_my_zsh.md(已弃用)
+- oh_my_zsh.md
 - README.md
 - vim.md
