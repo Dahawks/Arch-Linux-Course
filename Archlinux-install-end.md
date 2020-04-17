@@ -66,6 +66,7 @@ noto-fonts
 
 # Emoji
 > sudo pacman -S ttf-linux-libertine ttf-inconsolata ttf-joypixels noto-fonts-emoji ttf-liberation ttf-droid
+
 > yay -S ttf-twemoji-color
 
 # Chinese
