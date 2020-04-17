@@ -65,8 +65,9 @@ nerd-fonts-source-code-pro
 noto-fonts
 
 # Emoji
-> yay -S ttf-linux-libertine ttf-inconsolata ttf-joypixels ttf-twemoji-color noto-fonts-emoji ttf-liberation ttf-droid
+> sudo pacman -S ttf-linux-libertine ttf-inconsolata ttf-joypixels noto-fonts-emoji ttf-liberation ttf-droid
+> yay -S ttf-twemoji-color
 
 # Chinese
-> yay -S wqy-bitmapfont wqy-microhei wqy-microhei-lite wqy-zenhei adobe-source-han-mono-cn-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
+> sudo pacman -S wqy-bitmapfont wqy-microhei wqy-microhei-lite wqy-zenhei adobe-source-han-mono-cn-fonts adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
 
