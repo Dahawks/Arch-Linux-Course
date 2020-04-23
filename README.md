@@ -8,3 +8,4 @@
 - oh_my_zsh.md
 - README.md
 - vim.md
+- KDE 美化.md
